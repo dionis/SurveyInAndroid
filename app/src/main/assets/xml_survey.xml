@@ -1,0 +1,290 @@
+<survey>
+<propietary name="IPK" date="2022/04/02" objective="" >
+  <title></title>
+  <authors></authors>
+  <contacts>
+    <email></email>
+	<web></web>
+	<social_networks>
+	   <facebook></facebook>
+	   <twitter></twitter>
+	   <linkendin></linkendin>
+	   <instagram></instagram>
+	   <others>
+	     <other></other>
+	   </others>
+	</social_networks>
+  </contacts>
+  <description></description>
+</propietary>
+<queries>
+	<query name="DATOS DEMOGRÁFICOS">
+	  <question type="select" langage="es">
+	     <options>		 
+		    <option>
+			 	Hombre
+			</option>			    
+			 <option>
+			    Mujer
+			</option>
+	      </options>
+		 Sexo
+	  </question>
+	   <question type="select" langage="en">
+	     <options>		 
+		    <option>
+			 	Man
+			</option>			    
+			 <option>
+			    Women
+			</option>
+	      </options>
+		 Sexo
+	  </question>
+	   <question type="InputNumber" langage="es">
+	       Edad
+	  </question>
+	   <question type="InputNumber" langage="en">
+	       Age
+	  </question>
+	  <question type="select" langage="es">
+	     <options>		 
+		    <option>
+			 	Blanco
+			</option>			    
+			 <option>
+			    Mestizo
+			</option>
+			 <option>
+			   Negro
+			</option>
+		 </options>
+		 Color de su piel
+	  </question>
+	  <question type="select" langage="es">
+	     <options>		 
+		    <option>
+			 	White
+			</option>			    
+			 <option>
+			    Brune
+			</option>
+			 <option>
+			   Black
+			</option>
+		 </options>
+		 Skin color
+	  </question>
+	   <question type="InputNumber" langage="es">	     
+	     Peso aproximado (Kg/Lb)
+	  </question>
+	    <question type="select_exclusive" langage="es">
+	     <options>		 
+		    <option>
+			 	Si
+			</option>			    
+			 <option>
+			    No
+			</option>			
+		 </options>
+		 ¿Usted es personal de la salud?
+	  </question>
+	</query>
+	<query name="SALUD">
+	    <question type="select" langage="es">
+	     <options>		 
+		    <option>
+			 	Si
+			</option>			    
+			 <option>
+			    No
+			</option>
+	      </options>
+		 ¿Padece de alguna enfermedad?
+	   </question>
+	    <question type="select" langage="es">
+	      <options>		 
+		    <option>
+			 	Diabetes
+			 </option>			    
+			 <option>
+			    Asma
+			 </option>
+			 <option>
+			    Hipertesión
+			</option>
+			 <option>
+			    EPOC
+			 </option>
+			 <option>
+			    Colesterol/Tiglicerios altos
+			 </option>
+			 <option>
+			    Alergia
+			 </option>
+			 <option>
+			    Cancer
+			 </option>
+			 <option  type="InputText" size="50">
+			   Otros
+             </option>			  
+	        </options>
+		    ¿Cuál enfermedad padeces?
+	     </question>
+	     <question type="select" langage="es">
+	       <options>		 
+		      <option>
+			 	  Si
+			   </option>			    
+			   <option>
+			      No
+			   </option>
+	         </options>
+		     ¿Utiliza medicamentos para las enfermedades que padece?
+	      </question>
+	   <!-- Medicamento 1, medicamento 2, mdicamento 3, medicamento 4, medicamento 5 -->
+	      <question type="InputString" langage="es">	     
+	        ¿Cuáles medicamentos utiliza?
+	     </question>
+	     <question type="select" langage="es">
+	        <options>		 
+		       <option>
+			 	  Si
+			    </option>			    
+			    <option>
+			       No
+			    </option>
+	          </options>
+		    ¿Toma pastillas cuando se siente nervioso o para dormir?
+	      </question>
+	   <!-- Pastilla 1, Pastilla 2, Pastilla 3, Pastilla 4 -->
+	     <question type="InputString" langage="es">	     
+	      ¿Cuales pastillas toma?
+	     </question>
+		 <question type="select" langage="es">
+			 <options>		 
+				<option>
+					Si
+				</option>			    
+				 <option>
+					No
+				</option>
+			  </options>
+			   ¿Ha padecido usted enfermedades respiratorias más de 3 veces al año?
+	      </question>
+		 <question type="select" langage="es">
+			 <options>		 
+				<option>
+					Si
+				</option>			    
+				 <option>
+					No
+				</option>
+			  </options>
+			   ¿Alguien de su familia ha padecido COVID-19?
+	     </question>
+		 <question type="select" langage="es">
+			 <options>		 
+				<option>
+					Si
+				</option>			    
+				 <option>
+					No
+				</option>
+			  </options>
+			   ¿Alguien de su familia ha padecido COVID grave?
+	     </question>
+		 <question type="select" langage="es">
+			 <options>		 
+				<option>
+					Si
+				</option>			    
+				 <option>
+					No
+				</option>
+			  </options>
+			   ¿Llevó tratamiento para la COVID-19?
+	     </question>
+		 <question type="select" langage="es">
+			 <options>		 
+				<option>
+					Kaletra
+				</option>			    
+				 <option>
+					Cloroquina
+				</option>
+				<option>
+					Azitromicina
+				</option>
+				<option>
+					Interferon
+				</option>				
+				<option  type="InputText" size="50">
+			     Otro
+                </option>
+			  </options>
+			   ¿Llevó tratamiento para la COVID-19?
+	     </question>
+		 <question type="multi_select" langage="es">
+			 <options>		 
+				<option>
+					Vitaminas
+				</option>			    
+				 <option>
+					Supl.Nutricionales
+				</option>
+				<option>
+					Te
+				</option>
+				<option>
+					Infusiones
+				</option>	
+				<option>
+					Cocimientos
+				</option>	
+		        <option>
+					Antioxidantes
+				</option>
+				<option  type="InputText" size="50">
+			     Otro
+                </option>
+			  </options>
+			   ¿Usted toma alguno de los siguientes suplementos?
+	     </question>
+		 <question type="select" langage="es">
+			 <options>		 
+				<option>
+					Si
+				</option>			    
+				 <option>
+					No
+				</option>
+			  </options>
+			   ¿Usted fuma al menos un cigarro/tabaco al dia?
+	     </question>	 
+		 <question type="select" langage="es">
+			 <options>		 
+				<option>
+					Si
+				</option>			    
+				 <option>
+					No
+				</option>
+			  </options>
+			   Consume alcohol al menos una vez por semana
+	     </question>	 
+	</query>	
+	<query name="HABITOS DE ALIMENTACION">
+	  
+	</query>
+	<query name="SUEÑO">
+	  
+	</query>
+	<query name="ACTIVIDADES">
+	  
+	</query>
+	<query name="ASPECTOS SOCIOECONÓMICOS">
+	  
+	</query>
+</queries>
+</survey>
